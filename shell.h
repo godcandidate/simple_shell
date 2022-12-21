@@ -116,7 +116,7 @@ typedef struct passinfo
  * @func: the function
  */
 
-typedef struct builti
+typedef struct builtin
 {
 	char *type;
 	int (*func)(info_t *);
