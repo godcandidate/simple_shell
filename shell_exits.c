@@ -11,7 +11,7 @@ char *_strncpy(char *dest, char *src, int n)
 {
 	int i, j;
 	char *s = dest;
-	
+
 	i = 0;
 	while (src[i] != '\0' && i < n - 1)
 	{
@@ -71,6 +71,6 @@ char *_strchr(char *s, char c)
 		if (*s == c)
 			return (s);
 	} while (*s++ != '\0');
-	
+
 	return (NULL);
 }
